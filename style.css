@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: none;
+}
+
+body {
+  background-color: rgb(238, 127, 47);
+}
+
+form {
+  display: flex;
+  max-width: 400px;
+  justify-content: center;
+  margin: 0 auto;
+  flex-direction: column;
+}
+form input {
+  height: 50px;
+  font-size: 2rem;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+button {
+  align-self: flex-end;
+  padding: 10px 20px;
+}
+
+.sucess-message {
+  background-color: #208217;
+  padding: 16px;
+  align-self: center;
+  color: #fff;
+  display: none;
+}
+
+.error-message {
+  background-color: #911212;
+  padding: 16px;
+  display: none;
+  color: #fff;
+}
