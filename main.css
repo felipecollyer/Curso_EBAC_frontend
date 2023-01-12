@@ -1,0 +1,83 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Nunito", sans-serif;
+}
+
+.container {
+  max-width: 1330px;
+  margin: 0 auto;
+  background-color: rgb(68, 67, 67);
+}
+
+body {
+  background-color: rgb(68, 67, 67);
+}
+
+.container header {
+  text-align: center;
+  padding: 30px;
+  background-color: rgba(36, 36, 36, 0.363);
+  border-bottom: 5px solid rgb(36, 36, 36);
+  margin: 0 auto;
+  color: rgba(109, 109, 109, 0.596);
+}
+
+main {
+  margin: 35px;
+  text-align: center;
+}
+
+main form input {
+  height: 40px;
+  width: 300px;
+  padding: 5px;
+  outline: 0;
+  border: none;
+  border-radius: 5px;
+}
+main form button {
+  text-transform: uppercase;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  height: 40px;
+  margin-left: 10px;
+  background-color: rgb(36, 36, 36);
+  font-weight: bold;
+  color: rgba(109, 109, 109, 0.596);
+  /*text-decoration: line-through; */
+}
+
+main form button:hover {
+  background-color: rgba(14, 204, 8, 0.664);
+  color: #fff;
+  transition: 0.5s;
+}
+
+ul {
+  margin-top: 35px;
+}
+
+ul h2 {
+  color: rgba(248, 185, 12, 0.678);
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+ul li {
+  margin-top: 10px;
+  text-align: center;
+  padding-left: 10px;
+  font-size: 2em;
+  list-style: none;
+  color: rgb(168, 168, 168);
+  cursor: pointer;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.048);
+}
+
+.risco {
+  text-decoration: line-through;
+}
